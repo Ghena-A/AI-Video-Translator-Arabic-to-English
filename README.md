@@ -32,3 +32,10 @@ The environment requires `ffmpeg` for media extraction. Install the core depende
 ```bash
 !sudo apt update && sudo apt install ffmpeg
 !pip install faster-whisper requests edge-tts pydub moviepy
+
+## Execution Steps
+Place your source video as input.mp4 and your background track as music.mp3 in the root directory.
+
+Provide your OpenRouter API Key when prompted by the notebook.
+
+Run the cells sequentially to extract, translate, synthesize, mix, and render the final media asset.
